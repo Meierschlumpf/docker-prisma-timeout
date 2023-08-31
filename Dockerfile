@@ -1,7 +1,7 @@
 FROM node:20-alpine
 WORKDIR /app
 
-RUN yarn global add prisma
+RUN yarn add prisma
 RUN which prisma
 
 
